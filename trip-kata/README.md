@@ -1,1 +1,1 @@
-## TRIP-KATE ##
+## TRIP-KATA ##
