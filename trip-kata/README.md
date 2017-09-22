@@ -4,7 +4,7 @@ In this kata the main goal is to practice how to refactor legacy code and what s
 followed to make sure existing functionality and code is not broken.
 Given a legacy code, find code smells, unit tested and refactor it.
 
-# UNIT TEST #
+# Unit test #
 The first thing to do would be to make sure that the existing code is unit tested. To do so, we should start from the shallowest branch in the code to the deepest.
 Having a look at the *TripService_Original.java* class:
 The first test to be written would be that it should throw *UserNotLoggedInException* when the user is null.
@@ -83,7 +83,7 @@ public class TestableTripServiceWithUser extends TripService_Original2 {
 
 Once the existing code has been covered 100% we move to the refactoring phase.
 
-# REFACTORING #
+# Refactoring #
 In this phase the process is the other way around: **from deepest to shallowest branch**.
 
 The first thing to look at is the branch about checking whether user passed
